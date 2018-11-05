@@ -5,6 +5,8 @@ package longestPalindromeSubstring;
  * @date 2018/09/19
  * @since Version 1.0
  */
+//  Q: 求一个字符串中最长的回文字符串
+//  Best answer: 暂无
 public class LongestPalindromeSub {
 
     public boolean isPalindromeSub(String s) {
