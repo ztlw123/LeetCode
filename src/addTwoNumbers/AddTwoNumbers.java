@@ -71,28 +71,28 @@ public class AddTwoNumbers {
 
     public static void main(String[] args) {
         ListNode ge_1 = new ListNode(0);
-//        ListNode shi_1 = new ListNode(2);
-//        ListNode bai_1 = new ListNode(3);
+//        Node shi_1 = new Node(2);
+//        Node bai_1 = new Node(3);
 
 //        ge_1.setNext(shi_1);
 //        shi_1.setNext(bai_1);
 //        bai_1.setNext(null);
-        ge_1.setNext(null);
+        ge_1.next = null;
 
         ListNode ge_2 = new ListNode(7);
         ListNode shi_2 = new ListNode(3);
-//        ListNode bai_2 = new ListNode(7);
+//        Node bai_2 = new Node(7);
 
-        ge_2.setNext(shi_2);
-        shi_2.setNext(null);
+        ge_2.next = shi_2;
+        shi_2.next = null;
 //        bai_1.setNext(null);
 
         ListNode result = AddTwoNumbers.addTwoNumbers(ge_1, ge_2);
 
         ListNode temp = result.next;
-        System.out.println(result.getVal());
+        System.out.println(result.val);
         while(temp != null){
-            System.out.println(temp.getVal());
+            System.out.println(temp.val);
             temp = temp.next;
         }
     }
