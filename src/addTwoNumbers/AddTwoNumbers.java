@@ -4,8 +4,8 @@ package addTwoNumbers;
  * @Author zjh
  * @Date 2018/09/13,10:57
  */
+//  Q: 将两个链表相加求和 如：5->1->2, 3->2->1 为215 + 123 = 338
 public class AddTwoNumbers {
-
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         int up = 0; //进位，默认为0
