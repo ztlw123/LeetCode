@@ -4,6 +4,7 @@ package palindromeNumber;
  * @author 翟佳豪
  * @date 2018/09/17
  * @since Version 1.0
+ * @Description 判断一个整数逆置后是否不变
  */
 public class PalindromeNumber {
     public boolean isPalindrome(int x) {
