@@ -43,6 +43,6 @@ public class DevideTwoIntegers {
     }
 
     public static void main(String[] args) {
-        System.out.println(new DevideTwoIntegers().divide(128,2));
+        System.out.println(new DevideTwoIntegers().divide(18,3));
     }
 }
